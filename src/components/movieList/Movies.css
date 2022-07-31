@@ -1,0 +1,61 @@
+.table-container {
+    max-height: 80vh;
+    overflow: auto;
+}
+
+table.movies {
+    border-collapse: collapse;
+    width: 100%;
+    color: #111;
+}
+
+table.movies td:last-child {
+    padding-right: 3rem;
+}
+
+table.movies thead tr {
+    background-color: #fbfbfb;
+    position: sticky;
+    top: 0;
+    border: solid white 1px;
+}
+
+table.movies th {
+    padding: 0.5rem 0;
+}
+
+table.movies th:first-child {
+    text-align: left;
+    padding-left: 6rem;
+}
+
+table.movies th:last-child {
+    text-align: left;
+}
+
+table.movies tbody tr {
+    padding: 0;
+    margin: 0;
+    border: solid white 1px;
+}
+
+table.movies tbody tr:nth-child(even){
+    background-color: #fbfbfb;
+}
+table.movies tbody tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+table.movies img {
+    height: 100px;
+    padding: 0;
+}
+
+table.movies tbody td:nth-child(2) {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+table.movies a {
+    text-decoration: none;
+}
